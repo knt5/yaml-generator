@@ -15,5 +15,10 @@
   "keywords": [
     "yaml"
   ],
-  "homepage": "https://github.com/knt5/yaml-generator"
+  "homepage": "https://github.com/knt5/yaml-generator",
+  "dependencies": {
+    "deep-assign": "^2.0.0",
+    "glob": "^7.1.1",
+    "js-yaml": "^3.7.0"
+  }
 }
