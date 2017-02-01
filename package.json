@@ -1,0 +1,19 @@
+{
+  "name": "yaml-generator",
+  "version": "1.0.0",
+  "description": "YAML generator",
+  "author": "knt5",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knt5/yaml-generator.git"
+  },
+  "keywords": [
+    "yaml"
+  ],
+  "homepage": "https://github.com/knt5/yaml-generator"
+}
