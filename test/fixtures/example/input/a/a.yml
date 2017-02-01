@@ -1,4 +1,9 @@
+a1:
+  str: WWW
+  num: 10
+  array: [1,2,3]
 
-
-
-
+a2:
+  str: XXX
+  num: 20
+  array: [4,5,6]

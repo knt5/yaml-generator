@@ -1,4 +1,9 @@
+b1:
+  str: YYY
+  num: 30
+  array: [1,2,3]
 
-
-
-
+b2:
+  str: ZZZ
+  num: 40
+  array: [4,5,6]
