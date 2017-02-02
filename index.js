@@ -34,14 +34,12 @@ function generate(config) {
 				
 				// Reload ymls
 				// !! deepAssign() breaks argument objects every time
-				let mainDoc = loadYaml(config.main);
 				let doc = loadYaml(`${dir}/${name}.yml`);
 				let typeDoc = loadYaml(`${dir}/${name}-${typeName}.yml`);
 				
 				// Deep Object.assign()
 				// !! Array will be merged as Object by deepAssign()
-				console.log(mainDoc, doc, typeDoc, nodeDoc);
-				let result = deepAssign(mainDoc, doc, typeDoc, nodeDoc);
+				let result = deepAssign(doc, typeDoc, nodeDoc);
 				
 				// Write
 				if (result !== null) {
@@ -53,6 +51,8 @@ function generate(config) {
 			}
 		}
 	}
+	
+	return nodeNames;
 }
 
 function loadYaml(filePath) {
