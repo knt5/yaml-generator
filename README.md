@@ -1,6 +1,4 @@
-# yaml-generator
-
-YAML generator
+# YAML generator
 
 ## Example
 
@@ -18,7 +16,7 @@ yamlGenerator.generate({
 });
 ```
 
-## installation
+## Installation
 
 ```
 npm install yaml-generator
