@@ -17,3 +17,9 @@ yamlGenerator.generate({
 	header: '# Auto generated\n',
 });
 ```
+
+## installation
+
+```
+npm install yaml-generator
+```
