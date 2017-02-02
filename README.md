@@ -1,5 +1,11 @@
 # YAML generator
 
+## Installation
+
+```
+npm install yaml-generator
+```
+
 ## Example
 
 ```
@@ -14,10 +20,4 @@ yamlGenerator.generate({
 	},
 	header: '# Auto generated\n',
 });
-```
-
-## Installation
-
-```
-npm install yaml-generator
 ```
