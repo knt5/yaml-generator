@@ -1,8 +1,6 @@
-const yamlGenerator = require('../');
-
+const yaml = require('../');
 const dir = 'fixtures/example';
-
-yamlGenerator.generate({
+yaml.generate({
 	dir: {
 		input: `${dir}/input`,
 		output: `${dir}/output`,
