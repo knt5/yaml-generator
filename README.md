@@ -9,11 +9,9 @@ npm install yaml-generator
 ## Example
 
 ```
-const yamlGenerator = require('yaml-generator');
-
+const yaml = require('yaml-generator');
 const dir = 'fixtures/example';
-
-yamlGenerator.generate({
+yaml.generate({
 	dir: {
 		input: `${dir}/input`,
 		output: `${dir}/output`,
