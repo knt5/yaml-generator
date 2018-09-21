@@ -45,7 +45,7 @@ function generate(config) {
 				if (result !== null) {
 					fs.writeFileSync(
 						`${config.dir.output}/${nodeName}.yml`,
-						config.header + yaml.safeDump(result)
+						config.header + yaml.safeDump(result, { lineWidth: -1 })
 					);
 				}
 			}
